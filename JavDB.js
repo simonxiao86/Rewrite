@@ -10,11 +10,11 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/JavDB.js
-;^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies|movie_played) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/JavDB.js
+^https?:\/\/api\.liquidlink\.cn\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/simonxiao86/Rewrite/main/JavDB.js
+;^https?:\/\/api\.liquidlink\.cn\/api\/v\d\/(movies|movie_played) url script-request-header https://raw.githubusercontent.com/simonxiao86/Rewrite/main/JavDB.js
 
 [mitm]
-hostname = api.hechuangxinxi.xyz
+hostname = api.liquidlink.cn
 
 *************************************/
 
